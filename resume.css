@@ -184,3 +184,7 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+
+nav#sideNav button.navbar-toggler.collapsed {
+  display: none !important;
+}
