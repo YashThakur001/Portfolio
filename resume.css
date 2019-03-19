@@ -190,3 +190,9 @@ nav#sideNav button.navbar-toggler.collapsed {
 }
 
 canvas#my_canvas {display: none;}
+
+@media only screen and (max-width: 600px) {
+  nav#sideNav button.navbar-toggler.collapsed {
+    display: block !important;
+  }
+}
