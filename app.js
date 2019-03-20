@@ -6,7 +6,11 @@ document.querySelector('ul.navbar-nav').addEventListener("click", hide);
 //Show the menu
 function show(){
 	var element = document.querySelector('div#navbarSupportedContent');
+	if (element.style.display === "block") {
+	element.style.display = "none";
+	} else {
 	element.style.display = "block";
+	}
 }
 
 //Hide the menu after chosing one option
